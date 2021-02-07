@@ -1,0 +1,123 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right, #ff9966, #ff5e62);
+    margin: 0;
+
+    padding: 8%;
+}
+#head{
+  text-align: center;
+  color: blue;
+  padding:10px;
+}
+#main-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#login-form {
+    width: 100%;
+
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-size: 24px;
+    border: none;
+    border-bottom: 1px solid blue;
+    outline: none;
+    /* outline: none; */
+}
+
+.todo-item {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    margin: 16px 0;
+}
+
+.horizontal-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-message-container {
+    display: flex;
+}
+
+.todo-edit-container {
+    margin: 10px 0;
+    width: 100%;
+    display: none;
+}
+
+.todo-edit-container input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.todo-edit-container input::placeholder{
+    font-size: 18px;
+}
+
+.todo-edit-container button{
+    padding: 5px 10px;
+    background-image: linear-gradient(to right, pink, lightblue);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.todo-edit-container button:hover{
+    cursor: pointer;
+}
+
+.todo-item i {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#todo-input-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn-add-todo {
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    margin-left: 16px;
+}
+
+#btn-add-todo > i {
+    color: transparent;
+    background-image: linear-gradient(to right, pink, lightblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.edit-todo {
+    font-size: 24px;
+}
